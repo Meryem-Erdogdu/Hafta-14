@@ -1,1 +1,16 @@
 # Hafta-14
+Bu proje Python ve Django kullanılarak geliştirilmiştir. Projeyi bilgisayarınızda oluşturmak ve çalıştırmak için aşağıdaki adımları takip edebilirsiniz:
+
+py --version
+https://www.python.org/downloads/
+
+py -m venv venv
+
+./venv/Scripts/activate
+
+pip install django
+django --version
+django-admin startproject vulndemo .
+py manage.py migrate
+py manage.py runserver
+django-admin startapp attacklab
